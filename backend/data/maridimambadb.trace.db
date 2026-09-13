@@ -1,0 +1,9 @@
+2026-09-13 00:05:21.002826+05:30 jdbc[44]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM members membersaudit_logs [*]audit_logs flyway_schema_history flyway_schema_history ledger_transactions ledger_transactions loans loans monthly_cycles monthly_cycles"; SQL statement:
+SELECT * FROM members membersaudit_logs audit_logs flyway_schema_history flyway_schema_history ledger_transactions ledger_transactions loans loans monthly_cycles monthly_cycles [42000-224]
+2026-09-13 00:10:11.926560+05:30 jdbc[45]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "Delete [*]* FROM members"; expected "identifier"; SQL statement:
+Delete * FROM members [42001-224]
+2026-09-13 00:10:22.224892+05:30 jdbc[45]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "Delete [*]* FROM members"; expected "identifier"; SQL statement:
+Delete * FROM members [42001-224]
